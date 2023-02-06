@@ -7,7 +7,7 @@ const Header = () => {
             <img src={logo} alt="" />
             <div className="comp-version">
             <Navigation >
-                <NavigationLink to="/" >HOME</NavigationLink>
+                <NavigationLink to="my-web/" >HOME</NavigationLink>
                 <NavigationLink to="/about" >ABOUT</NavigationLink>
                 <NavigationLink to="/skills" >SKILLS</NavigationLink>
                 <NavigationLink to="/portfolio" >PORTFOLIO</NavigationLink>
@@ -22,7 +22,7 @@ const Header = () => {
             </label>
             <div className="phone-version">
             <Navigation className="navs-header">
-                <NavigationLink to="/" >HOME</NavigationLink>
+                <NavigationLink to="my-web/" >HOME</NavigationLink>
                 <NavigationLink to="/about" >ABOUT</NavigationLink>
                 <NavigationLink to="/skills" >SKILLS</NavigationLink>
                 <NavigationLink to="/portfolio" >PORTFOLIO</NavigationLink>
